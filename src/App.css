@@ -1,0 +1,54 @@
+* {
+  font-family: xpjb-n3, adobe-notdef;
+  font-size: 18px;
+}
+
+.nav-wrapper {
+  padding: 0px 50px;
+  background-color: green;
+}
+
+.App {
+  background-color: #fafafa;
+}
+
+/*Espace de 50px pour le gabarir*/
+
+.box {
+  height: 750px;
+  padding: 38px 50px;
+  border: 3px dashed orange;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+}
+
+.page-footer {
+  background-color: green;
+}
+
+.map,
+.sentence {
+  border: 1px solid;
+}
+
+.map {
+  height: 570px;
+  width: 800px;
+  overflow-y: auto;
+}
+
+.sentence {
+  height: 570px;
+  width: 400px;
+  overflow-y: auto;
+}
+
+.contenu {
+  display: flex;
+  border: 3px dashed green;
+}
